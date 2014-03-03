@@ -21,17 +21,17 @@ I still don't know if there is some bug.
 Q. My selection is not responsing, what could be the issue? I've checked the ID and stuff, they all are OK.
 A. Just do accordingly to your command length and ID. See below:
 
-[code]
-#undef EasymSelection_LENGTH
-#define EasymSelection_LENGTH LengthHere // Default is 10.[/code]
+
+> #undef EasymSelection_LENGTH
+> #define EasymSelection_LENGTH LengthHere // Default is 10.
 
 
 
 Q. How to enable debug mode?
 A. You can enable debug mode by going inside include and edit #define EasymSelection_DEBUG false to true OR, just undefine it and define it again.
 
-[code]#undef EasymSelection_DEBUG
-#define EasymSelection_DEBUG true[/code]
+> #undef EasymSelection_DEBUG
+> #define EasymSelection_DEBUG true
 
 
 #Credits:
